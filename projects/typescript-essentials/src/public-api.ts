@@ -1,6 +1,7 @@
 export { createTrackByFn, TrackByFunction } from './lib/angular/create-track-by-fn.fn';
 export { trackById } from './lib/angular/track-by-id.fn';
 export { trackByValue } from './lib/angular/track-by-value.fn';
+export { trackByIndex } from './lib/angular/track-by-index.fn';
 
 export { exclude } from './lib/arrays/exclude.fn';
 export { partition } from './lib/arrays/partition.fn';
