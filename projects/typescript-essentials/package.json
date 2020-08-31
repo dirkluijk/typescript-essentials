@@ -1,6 +1,6 @@
 {
     "name": "typescript-essentials",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Must-have utility types and functions for TypeScript",
     "author": "Dirk Luijk <mail@dirkluijk.nl>",
     "license": "MIT",

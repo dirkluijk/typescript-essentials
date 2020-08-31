@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/dirkluijk/typescript-essentials/compare/v0.0.2...v0.0.3) (2020-08-31)
+
+
+### Features
+
+* add matchesDiscriminator() and Subtract ([602930d](https://github.com/dirkluijk/typescript-essentials/commit/602930d20b2ab9261b22dc87715db88a3c421534))
+
 ### [0.0.2](https://github.com/dirkluijk/typescript-essentials/compare/v0.0.1...v0.0.2) (2020-08-30)
 
 
