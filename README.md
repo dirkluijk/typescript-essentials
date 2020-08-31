@@ -28,23 +28,19 @@ yarn add typescript-essentials
 
 ## Contents
 
-### Type-guards
+### Predicates & type guards
 
-Can be useful to narrow types in arrays or other data structures.
+Useful to compose simple predicates, or to narrow types in arrays or other data structures.
 
-* `isNull()`
-* `isUndefined()`
-* `isNullOrUndefined()`
-* `notNull()`
-* `notUndefined()`
-* `notNullOrUndefined()`
-
-### Predicates
-
-Useful to compose simple predicates.
-
-* `Predicate` interface
+* `Predicate` and `TypeGuard` interfaces
 * `not()` function to negate predicates
+* `isNull()` type guard
+* `isUndefined()` type guard
+* `isNullOrUndefined()` type guard
+* `isNotNull()` type guard
+* `isNotUndefined()` type guard
+* `isNotNullOrUndefined()` type guard
+* `matchesDiscriminator()` function that returns a type guard
 
 ### Ordered
 

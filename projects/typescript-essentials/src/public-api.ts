@@ -10,6 +10,7 @@ export { uniqueValues } from './lib/arrays/unique-values.fn';
 export { DiscriminatedUnion } from './lib/generics/discriminated-union';
 export { Narrowable } from './lib/generics/narrowable';
 export { WithOptional } from './lib/generics/with-optional';
+export { Subtract } from './lib/generics/subtract';
 
 export { omit } from './lib/objects/omit.fn';
 
@@ -18,10 +19,10 @@ export { compareByOrder } from './lib/ordered/compare-by-order.fn';
 
 export { not } from './lib/predicates/not.fn';
 export { Predicate } from './lib/predicates/predicate';
-
-export { isNotNullOrUndefined } from './lib/typeguards/is-not-null-or-undefined.fn';
-export { isNotNull } from './lib/typeguards/is-not-null.fn';
-export { isNotUndefined } from './lib/typeguards/is-not-undefined.fn';
-export { isNullOrUndefined } from './lib/typeguards/is-null-or-undefined.fn';
-export { isNull } from './lib/typeguards/is-null.fn';
-export { isUndefined } from './lib/typeguards/is-undefined.fn';
+export { TypeGuard } from './lib/predicates/type-guard';
+export { isNotNullOrUndefined } from './lib/predicates/is-not-null-or-undefined.fn';
+export { isNotNull } from './lib/predicates/is-not-null.fn';
+export { isNotUndefined } from './lib/predicates/is-not-undefined.fn';
+export { isNullOrUndefined } from './lib/predicates/is-null-or-undefined.fn';
+export { isNull } from './lib/predicates/is-null.fn';
+export { isUndefined } from './lib/predicates/is-undefined.fn';

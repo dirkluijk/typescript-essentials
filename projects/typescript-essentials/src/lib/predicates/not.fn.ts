@@ -3,8 +3,17 @@
  *
  * @param func The predicate to negate.
  */
-export function not<T extends (...args: any[]) => boolean>(func: T): T {
-    return function(this: unknown, ...args: any[]): boolean {
-        return !func.apply(this, args);
-    } as T;
+import { Subtract } from '../generics/subtract';
+
+import { Predicate } from './predicate';
+import { TypeGuard } from './type-guard';
+
+export function not<T, R extends T>(func: TypeGuard<T, R>): unknown extends T ?
+    TypeGuard<any, Subtract<any, R>> :
+    TypeGuard<T, Subtract<T, R>>;
+export function not<T>(func: Predicate<T>): Predicate<T>;
+export function not<T>(func: Predicate<T>): Predicate<T> {
+    return function(this: unknown, arg: T, ...otherArgs: any[]): boolean {
+        return !func.apply(this, [arg, ...otherArgs]);
+    };
 }
