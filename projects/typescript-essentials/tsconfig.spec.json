@@ -1,15 +1,19 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../out-tsc/spec",
-    "emitDecoratorMetadata": true,
-    "types": [
-      "jest",
-      "node"
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "../../out-tsc/spec",
+        "emitDecoratorMetadata": true,
+        "types": [
+            "jest",
+            "node"
+        ],
+        "paths": {
+            "typescript-essentials-api": ["projects/typescript-essentials/src/public-api.ts"]
+        },
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*.spec.ts",
+        "src/**/*.d.ts"
     ]
-  },
-  "include": [
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
-  ]
 }

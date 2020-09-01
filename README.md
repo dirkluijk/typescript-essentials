@@ -28,44 +28,48 @@ yarn add typescript-essentials
 
 ## Contents
 
-### Predicates & type guards
+### Predicates & type-guards
 
 Useful to compose simple predicates, or to narrow types in arrays or other data structures.
 
-* `Predicate` and `TypeGuard` interfaces
-* `not()` function to negate predicates
-* `isNull()` type guard
-* `isUndefined()` type guard
-* `isNullOrUndefined()` type guard
-* `isNotNull()` type guard
-* `isNotUndefined()` type guard
-* `isNotNullOrUndefined()` type guard
-* `matchesDiscriminator()` function that returns a type guard
-
-### Ordered
-
-* `Ordered<T>` interface
-* `compareByOrder()` comparator function
+* [`Predicate` and `TypeGuard` interfaces](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`not()` function](projects/typescript-essentials/src/lib/predicates/predicates.md) to negate predicates
+* [`matchesDiscriminator()` function](projects/typescript-essentials/src/lib/predicates/predicates.md) that returns a type guard
+* [`isNull()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`isUndefined()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`isNullOrUndefined()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`isNotNull()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`isNotUndefined()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
+* [`isNotNullOrUndefined()` type guard](projects/typescript-essentials/src/lib/predicates/predicates.md)
 
 ### Generics
 
-* `DiscriminatedUnion` to narrow a union type using a discriminator field
-* `WithPartial` to make certain properties optional
-* `Narrowable` to identify a type that can be narrowed
+* [`DiscriminatedUnion`](projects/typescript-essentials/src/lib/generics/generics.md) to narrow a union type using a discriminator field
+* [`Narrowable`](projects/typescript-essentials/src/lib/generics/generics.md) to identify a type that can be narrowed
+* [`Subtract`](projects/typescript-essentials/src/lib/generics/generics.md) to subtract types from one another
+* [`WithOptional`](projects/typescript-essentials/src/lib/generics/generics.md) to make certain properties optional
 
 ### Array utils
 
-* `uniqueValues()`
-* `exclude()`
-* `partition()`
+* [`uniqueValues()`](projects/typescript-essentials/src/lib/arrays/arrays.md)
+* [`exclude()`](projects/typescript-essentials/src/lib/arrays/arrays.md)
+* [`partition()`](projects/typescript-essentials/src/lib/arrays/arrays.md)
 
 ### Object utils
 
-* `omit` function (to omit specific properties from objects)
+* [`omit()`](projects/typescript-essentials/src/lib/objects/objects.md)
 
-### Angular utils
+### Ordered
 
-* `trackByIndex`, `trackById` and `createTrackByFn` functions
+* [`Ordered<T>` interface](projects/typescript-essentials/src/lib/ordering/ordering.md)
+* [`compareByOrder()` comparator function](projects/typescript-essentials/src/lib/ordering/ordering.md)
+
+### "Track by" functions for Angular 
+
+* [`trackByIndex`](projects/typescript-essentials/src/lib/angular/angular.md)
+* [`trackById`](projects/typescript-essentials/src/lib/angular/angular.md)
+* [`trackByValue`](projects/typescript-essentials/src/lib/angular/angular.md)
+* [`createTrackByFn`](projects/typescript-essentials/src/lib/angular/angular.md)
 
 ## Contributors ✨
 

@@ -46,7 +46,7 @@
         "@dscheerens/tslint-presets": "^8.0.0",
         "@ngneat/spectator": "^5.0.0",
         "@types/jest": "^26.0.0",
-        "@types/node": "^12.11.1",
+        "@types/node": "^14.6.2",
         "all-contributors-cli": "^6.8.2",
         "codelyzer": "^6.0.0",
         "commitizen": "^4.0.3",
@@ -55,7 +55,7 @@
         "jest": "^26.0.0",
         "ng-packagr": "^10.0.0",
         "standard-version": "^9.0.0",
-        "ts-node": "~7.0.0",
+        "ts-node": "~9.0.0",
         "tslint": "~6.1.0",
         "typescript": "~3.9.7"
     },

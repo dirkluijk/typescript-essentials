@@ -1,5 +1,4 @@
-import { matchesDiscriminator } from './matches-discriminator.fn';
-import { not } from './not.fn';
+import { matchesDiscriminator, not } from 'typescript-essentials-api';
 
 type Animal = Dog | Cat | Bird;
 

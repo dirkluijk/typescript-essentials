@@ -1,4 +1,4 @@
-import { omit } from './omit.fn';
+import { omit } from 'typescript-essentials-api';
 
 describe('omit function', () => {
     it('creates shallow clone of the given object without the specified properties', () => {
